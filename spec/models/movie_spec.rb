@@ -19,6 +19,7 @@ describe 'Movie' do
     end
 
     it 'has a release date' do
+      # binding.pry
       movie.release_date = 1999
       expect(movie.release_date).to eq(1999)
     end
